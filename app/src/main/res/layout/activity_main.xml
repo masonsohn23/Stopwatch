@@ -29,22 +29,5 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
 
-    <Button
-        android:id="@+id/button_main_reset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Reset"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_main_start"
-        tools:layout_editor_absoluteX="158dp" />
-
-    <Button
-        android:id="@+id/button_main_stop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="stop"
-        app:layout_constraintBottom_toTopOf="@+id/button_main_reset"
-        app:layout_constraintTop_toBottomOf="@+id/button_main_start"
-        tools:layout_editor_absoluteX="160dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
